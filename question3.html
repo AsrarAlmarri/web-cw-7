@@ -19,8 +19,28 @@
         اللي رفيجك يتابعها Animeتحتوي على مسلسلات ال myFriendAnime المصفوفة الثانية
       */
 
+      let myAnime=[`erased`,`one piece`,`promare`,`my hero acadamia`];
+      let myFriendAnime =[`dororo`,`one piece`,`promare`,`kakegurui`];
+
       // 2
       // mutualAnime عرف مصفوفة فاضية سمها
+
+      let mutualAnime=[];
+
+      for (let index = 0; index < myAnime.length; index++) 
+      {
+          
+          if(myAnime[index]==myFriendAnime[index])
+          {
+            mutualAnime.push(myAnime[index]);
+          }
+           
+        
+        
+      }
+
+       
+
 
       // mutualAnimeقارن المصفوفتين وضيف المسلسلات المشتركة ل
 
